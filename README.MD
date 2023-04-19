@@ -1,5 +1,5 @@
 # ElasticSearch migration of indexes
-Migrate your indexes between elastic's
+Migrate your indexes between elastic's using docker and elasticdump/elasticsearch-dump image
 
 ## Installation
 1. Get indexes list for migration `curl -k http://<FROM>:9200/_cat/indices |awk '{ print $3 }' > ~/Downloads/text1.txt`
